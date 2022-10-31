@@ -1,0 +1,6 @@
+use_frameworks!
+target 'cocoa_spm_Tests' do
+  pod 'cocoa_spm', :path => '../'
+  
+  
+end
