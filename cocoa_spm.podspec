@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   #s.source_files = 'cocoa_spm/Classes/**/*'
   
-s.source_files = 'Sources/cocoa_spm/**/*'
+s.source_files = 'Sources/cocoa_spm/*.Swift'
   
   # s.resource_bundles = {
   #   'cocoa_spm' => ['cocoa_spm/Assets/*.png']
