@@ -1,0 +1,22 @@
+{
+  "name": "cocoa_spm",
+  "version": "0.1.0",
+  "summary": "A short description of cocoa_spm.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/arhakoby/cocoa_spm",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "arhakoby": "armen.hakobyan@softconstruct.com"
+  },
+  "source": {
+    "git": "https://github.com/arhakoby/cocoa_spm.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "cocoa_spm/Classes/**/*"
+}
