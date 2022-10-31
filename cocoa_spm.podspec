@@ -22,15 +22,15 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/arhakoby/cocoa_spm'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'arhakoby' => 'armen.hakobyan@softconstruct.com' }
   s.source           = { :git => 'https://github.com/arhakoby/cocoa_spm.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'cocoa_spm/Classes/**/*'
+  #s.source_files = 'cocoa_spm/Classes/**/*'
+  
+s.source_files = 'cocoa_spm/Sources/**/*'
   
   # s.resource_bundles = {
   #   'cocoa_spm' => ['cocoa_spm/Assets/*.png']
